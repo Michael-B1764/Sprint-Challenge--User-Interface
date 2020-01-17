@@ -288,7 +288,7 @@ p, h1, h2, h3 {
     }
 }
 .boxes div:hover {
-    animation: circle 0.25s cubic-bezier(.36,.07,.19,.97) both;
+    animation: circle 0.80s linear both;
 }
 
 @keyframes circle {
