@@ -65,10 +65,48 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+p, h1, h2  {
+    font-weight: 500;
+}
 .container {
     width: 800px;
     margin: 0 auto;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: white;
+    height:80px;
+    margin-top: 20px;
+}
+.navbar nav {
+    width:600px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color:rgb(153, 153, 153);
+}
+.header-img {
+    margin-bottom: 20px;
+}
+.header-img-blog {
+   width:800px;
+   object-fit: cover;
+}
+.about-section {
+    width:775px;
+    margin-left: 11px;
 }
 
 .top-content {
@@ -83,6 +121,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.page-line {
+    border:0.5px black dashed;
+    width: 800px;
+    margin:30px auto;
 }
 
 .middle-content {
@@ -101,10 +144,11 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+
+.middle-content .boxes div {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +156,99 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color:  forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+.about-cards {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width:775px;
+    margin-left: 11px;
+}
+
+.gallery-cards {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width:775px;
+    margin-left: 11px;
+}
+
+.card {
+    width:370px;
+    height:440px;
+    margin-bottom:50px;
+}
+.gallery-card {
+    width:370px;
+    height:440px;
+    margin-bottom:50px;
+}
+.card h2 {
+    margin-top: 10px;
+    font-size:18px;
+}
+.card-img {
+    width:370px;
+    object-fit: cover;
+}
+.learn-more-btn {
+    border:2px solid black;
+    width:120px;
+    height:36px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.learn-more-btn:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+.card-line {
+    border:.5px dashed black;
+    width: 370px;
+}
+
+.work-together {
+    margin-bottom: 40px;
+    width:775px;
+    margin-left: 11px;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +281,87 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+footer nav a:hover {
+    color:rgb(109, 109, 109);
+}
+
+
+p, h1, h2, h3 {
+    font-weight: 600;
+}
+
+.learn-more-btn:hover {
+    animation: shake 0.90s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform:translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform:translate3d(2px, 0, 0);
+    }
+    30%,50%,70% {
+        transform:translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform:translate3d(5px, 0, 0);
+    }
+}
+.boxes div:hover {
+    animation: circle 0.80s linear both;
+}
+
+@keyframes circle {
+    0% {
+        border-radius: 0 0 0 0;
+        transform: rotate(0deg);
+    }
+    25% {
+        border-radius: 25% 25% 25% 25%;
+        transform: rotate(45deg);
+    }
+    50% {
+        border-radius: 50% 50% 50% 50%;
+        transform: rotate(90deg);
+    }
+    75% {
+        border-radius: 75% 75% 75% 75%;
+        transform: rotate(180deg);
+    }
+    100% {
+        border-radius: 100% 100% 100% 100%;
+        transform: rotate(360deg);
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    .gallery-cards {
+      flex-direction: column;
+    }
+    .header-img-blog {
+        width:600px;
+        object-fit: cover;
+     }
+     .blog-page {
+        width: 400px;
+        margin: 0 auto;
+    }
+    .about-section {
+        width:390px;
+        margin-left: 5px;
+    }
+    .gallery-card {
+        width:370px;
+        height:440px;
+        margin-bottom:50px;
+    }
+
+  } */
+
+
+
+
+/* * {
+    outline:1px solid black;
+} */
