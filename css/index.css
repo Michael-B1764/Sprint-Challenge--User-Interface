@@ -75,7 +75,7 @@ p {
     justify-content: space-between;
     align-items: baseline;
     background-color: white;
-    height:100px;
+    height:80px;
     margin-top: 20px;
 }
 .navbar nav {
@@ -104,6 +104,11 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.page-line {
+    border:0.5px black dashed;
+    width: 800px;
+    margin:30px auto;
 }
 
 .middle-content {
@@ -165,6 +170,44 @@ p {
     background-color: dodgerblue;
 }
 
+.about-cards {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width:392.5px;
+    height:425px;
+    margin-bottom:50px;
+}
+.card h2 {
+    margin-top: 10px;
+    font-size:18px;
+    
+}
+.learn-more-btn {
+    border:2px solid black;
+    width:120px;
+    height:36px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.card-line {
+    border:.5px dashed black;
+    width: 370px;
+}
+
+.work-together {
+    margin-bottom: 40px;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
