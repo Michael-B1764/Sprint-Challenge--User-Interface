@@ -174,17 +174,22 @@ p {
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    width:775px;
+    margin-left: 11px;
 }
 
 .card {
-    width:392.5px;
-    height:425px;
+    width:370px;
+    height:440px;
     margin-bottom:50px;
 }
 .card h2 {
     margin-top: 10px;
     font-size:18px;
-    
+}
+.card-img {
+    width:370px;
+    object-fit: cover;
 }
 .learn-more-btn {
     border:2px solid black;
@@ -207,6 +212,8 @@ p {
 
 .work-together {
     margin-bottom: 40px;
+    width:775px;
+    margin-left: 11px;
 }
 .bottom-content {
     display: flex;
@@ -240,3 +247,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* * {
+    outline:1px solid black;
+} */
