@@ -46,7 +46,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
     Git is amazing because it allows you to "save a spot in time" while you are coding and allows you to share that with others. you can also use it for making seperate branches so you can work on seperate parts of the project without interfering with your team member's work. Version control is super important when working on big projects.
-    
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
@@ -106,6 +106,6 @@ In your solution, it is essential that you follow best practices and produce cle
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
 * [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
-* [ ] Introduce CSS animations to your site.
+* [x] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
